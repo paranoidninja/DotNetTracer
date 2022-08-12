@@ -5,7 +5,7 @@
 #include <evntrace.h>
 
 // compile with:
-// x86_64-w64-mingw32-gcc scripts/dotnettracer.c -o ~/Documents/dotnettracer.exe -ladvapi32
+// x86_64-w64-mingw32-gcc dotnettracer.c -o dotnettracer.exe -ladvapi32
 
 #define AssemblyDCStart_V1 155
 #define PROCESS_TRACE_MODE_REAL_TIME                0x00000100
